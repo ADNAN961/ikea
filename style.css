@@ -1,0 +1,268 @@
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    color: #000000;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center ;
+}
+
+.container{
+   width: 100%;
+   height: 80vh;
+
+}
+
+.banner{
+    width: 100%;
+    height:70vh ;
+    background-image: url(images/SOFA.png);
+    background-size: cover;
+    background-position: 69%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.banner-text{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.banner-text h3{
+    font-weight: lighter;
+    text-align: center;
+    color: #ffff;
+}
+
+.banner-text h1{
+    text-align: center;
+    
+    font-size: 100px;
+    color: rgb(202, 202, 0);
+}
+
+#btn{
+    width: 130px;
+    height: 35px;
+    border: 1px ;
+    background-color: #000000;
+    letter-spacing: 3px ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+
+}
+
+.center{
+    text-align: center;
+} 
+
+.cart{
+    position: relative;
+    background-color: #ffffff;
+    color: #212528;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+ }
+
+ .cartamount{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    background-color: rgb(232, 0, 0);
+    color: rgb(133, 11, 11);
+    padding: 3px;
+    border-radius: 3px;
+   }
+
+
+
+   .shop{
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+   }
+    
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(4, 223px);
+    }
+}
+
+   .item{
+    border: 2px solid #212528;
+    border-radius: 4px;
+   }
+
+   .details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+
+   }
+
+   .price-quanity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+   
+
+   }
+
+   .button{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+
+.item img{
+    height: 200px;
+    
+} 
+
+.heading{
+    text-align: center;
+} 
+
+.support{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 10px ;
+   } 
+
+   
+   .help{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 50px;
+    align-items: center;
+    border: 1px solid #212528; 
+    border-radius: 50px;
+    color: #ea0000; 
+    font-weight: bold;
+    background-color:whitesmoke;
+    margin-bottom: 50px;
+   } 
+
+.div{
+    width: 100%;
+    height:50vh ;
+    background-image: url(images/BANNER.png);
+    background-size: cover;
+    background-position: 69%;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 800px;
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    width: 140px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+ content: '';
+ width: 0;
+ height: 3px;
+ background: #23008a;
+ position: absolute;
+ left: 0;
+ bottom: -6px;
+ transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #ff004f;
+}
+
+ 
+#about{
+    padding: 100px 0;
+    color: #fdfdfd;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{ 
+    flex-basis: 35%;
+
+}
+.about-col-1 img{
+    align-items: start;
+    width: 12%
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%; 
+}  
+
+.country{
+    width: 40px;
+}
+
+.header{
+    align-items: center;
+    
+}
